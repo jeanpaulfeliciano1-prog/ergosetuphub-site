@@ -1,0 +1,17 @@
+---
+interface Props {
+  tier: string;
+  name: string;
+  desc: string;
+  url: string;
+}
+const { tier, name, desc, url } = Astro.props;
+---
+<article class="card">
+  <span class="tier">{tier}</span>
+  <h3>{name}</h3>
+  <p>{desc}</p>
+  <a class="btn" href={url} target="_blank" rel="nofollow sponsored noopener">
+    Check price on Amazon <span aria-hidden="true">→</span>
+  </a>
+</article>

@@ -1,0 +1,99 @@
+---
+import Base from '../layouts/Base.astro';
+import ProductCard from '../components/ProductCard.astro';
+import categories from '../data/categories.json';
+
+const faqs = [
+  {
+    q: 'Do I need to buy everything at once?',
+    a: "No. If you can only fix one thing, start with monitor height. It's the cheapest, fastest change and affects your neck and eyes the most.",
+  },
+  {
+    q: 'Is an expensive chair actually worth it?',
+    a: 'If you sit for six or more hours a day, a chair with good adjustability and lumbar support, like the Aeron or Series 1, can be worth the money over a year or two. If budget is tight, a well-adjusted mid-range chair plus a lumbar cushion is a reasonable middle ground.',
+  },
+  {
+    q: 'Standing desk or sitting desk?',
+    a: 'Neither, exclusively. Most guidance points to alternating between the two through the day rather than standing all day, which brings its own fatigue.',
+  },
+];
+---
+<Base>
+  <main>
+    <section class="hero wrap">
+      <p class="eyebrow">Home-office setup guide</p>
+      <h1>Build a home office <span class="accent">that doesn't hurt.</span></h1>
+      <p class="lead">
+        ErgoSetupHub is a small, independent guide to setting up a desk that supports your back, wrists and eyes,
+        with straightforward picks across chairs, desks, monitor arms, keyboards and lighting.
+      </p>
+      <div class="cta">
+        <a class="btn" href="#chairs">View the picks <span aria-hidden="true">→</span></a>
+        <a class="btn ghost" href="/about.html">Why trust us</a>
+      </div>
+      <p class="disclosure">
+        As an Amazon Associate, ErgoSetupHub earns from qualifying purchases. That never changes which products we
+        choose to show. See our <a href="/disclosure.html">full disclosure</a>.
+      </p>
+    </section>
+
+    <section class="wrap section" aria-labelledby="start-here">
+      <div class="section-head">
+        <h2 id="start-here">Start here</h2>
+        <span class="count">Six categories</span>
+      </div>
+      <p class="lede">
+        Most home-office pain comes from a few culprits: a chair with no lumbar support, a monitor at the wrong
+        height, or a keyboard that forces your wrists into a bad angle. Fix those first.
+      </p>
+      <div class="tiles">
+        {categories.map((c) => (
+          <a class="tile" href={`#${c.id}`}>
+            <span class="room">{c.room}</span>
+            <h3>{c.title}</h3>
+            <p>{c.blurb}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {categories.map((c) => (
+      <section id={c.id} class="wrap section">
+        <div class="section-head">
+          <h2>{c.title}</h2>
+          <span class="count">{c.room} / VI</span>
+        </div>
+        <p class="lede">{c.lede}</p>
+        <div class="grid">
+          {c.products.map((p) => <ProductCard {...p} />)}
+        </div>
+      </section>
+    ))}
+
+    <section class="wrap section">
+      <div class="note">
+        <p class="eyebrow">How we pick</p>
+        <p class="note-lead">
+          We prioritize pieces with clear ergonomic reasoning behind them (adjustable lumbar support, proper monitor
+          height ranges, neutral wrist angles) over whatever is trending.
+        </p>
+        <p>
+          We link to Amazon search results rather than a single fixed listing, so you always land on current pricing,
+          sizes and colors instead of an outdated page.
+        </p>
+      </div>
+    </section>
+
+    <section id="faq" class="wrap section">
+      <div class="section-head"><h2>Frequently asked questions</h2></div>
+      <div class="faq">
+        {faqs.map((f) => (
+          <details>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  </main>
+</Base>
