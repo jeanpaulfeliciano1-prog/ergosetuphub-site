@@ -10,21 +10,24 @@
         "name": "Herman Miller Aeron",
         "desc": "Breathable Pellicle mesh over a die-cast frame, with adjustable PostureFit lumbar support.",
         "url": "https://www.amazon.com/s?k=Herman+Miller+Aeron+chair&tag=jeanventures2-20",
-        "image": ""
+        "image": "/products/chair-mesh.svg",
+        "imageAlt": "Illustration of a tall mesh ergonomic chair with headrest"
       },
       {
         "tier": "Best value",
         "name": "Steelcase Series 1",
         "desc": "A knit-mesh back and a simpler lumbar mechanism, most of the adjustability at a gentler price.",
         "url": "https://www.amazon.com/s?k=Steelcase+Series+1+chair&tag=jeanventures2-20",
-        "image": ""
+        "image": "/products/chair-midback.svg",
+        "imageAlt": "Illustration of a mid-back ergonomic chair with adjustable arms"
       },
       {
         "tier": "Budget",
         "name": "Branch Ergonomic Chair",
         "desc": "Mesh back with a fixed lumbar pad — a sensible starting point under real budget constraints.",
         "url": "https://www.amazon.com/s?k=Branch+ergonomic+chair&tag=jeanventures2-20",
-        "image": ""
+        "image": "/products/chair-task.svg",
+        "imageAlt": "Illustration of a simple ergonomic task chair"
       }
     ],
     "room": "I"

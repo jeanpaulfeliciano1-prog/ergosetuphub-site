@@ -1,14 +1,14 @@
 ---
 import Icon from './Icon.astro';
 interface Props {
-  tier: string; name: string; desc: string; url: string; image?: string; category: string; featured?: boolean;
+  tier: string; name: string; desc: string; url: string; image?: string; imageAlt?: string; category: string; featured?: boolean;
 }
-const { tier, name, desc, url, image = '', category, featured = false } = Astro.props;
+const { tier, name, desc, url, image = '', imageAlt = '', category, featured = false } = Astro.props;
 ---
 {featured ? (
   <article class="feat">
     <div class={`tile ${image ? 'has-img' : ''}`}>
-      {image ? <img src={image} alt={name} loading="lazy" /> : <Icon id={category} size={74} sw={1.2} />}
+      {image ? <img src={image} alt={imageAlt || name} loading="lazy" /> : <Icon id={category} size={74} sw={1.2} />}
     </div>
     <div class="fb">
       <span class="tag">{tier}</span>
@@ -20,7 +20,7 @@ const { tier, name, desc, url, image = '', category, featured = false } = Astro.
 ) : (
   <article class="mini">
     <div class={`thumb ${image ? 'has-img' : ''}`}>
-      {image ? <img src={image} alt={name} loading="lazy" /> : <Icon id={category} size={30} sw={1.5} />}
+      {image ? <img src={image} alt={imageAlt || name} loading="lazy" /> : <Icon id={category} size={30} sw={1.5} />}
     </div>
     <div class="mb">
       <span class="tag alt">{tier}</span>

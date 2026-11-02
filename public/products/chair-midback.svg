@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a mid-back ergonomic chair with adjustable arms">
+<rect width="400" height="300" fill="#eef2fb"/>
+<circle cx="200" cy="150" r="118" fill="#fff"/>
+<ellipse cx="200" cy="266" rx="108" ry="9" fill="#14213d" opacity=".10"/>
+<g>
+<rect x="196" y="204" width="8" height="38" rx="3" fill="#9aa8c7"/>
+<rect x="196" y="204" width="8" height="12" rx="3" fill="#14213d"/>
+<rect x="132" y="240" width="136" height="10" rx="5" fill="#14213d"/>
+<circle cx="146" cy="258" r="8" fill="#0e1730"/><circle cx="146" cy="258" r="3" fill="#9aa8c7"/>
+<circle cx="254" cy="258" r="8" fill="#0e1730"/><circle cx="254" cy="258" r="3" fill="#9aa8c7"/>
+<circle cx="200" cy="258" r="8" fill="#0e1730"/><circle cx="200" cy="258" r="3" fill="#9aa8c7"/>
+</g>
+<path d="M158 184 C146 160 146 128 154 96" fill="none" stroke="#14213d" stroke-width="30" stroke-linecap="round"/>
+<path d="M158 180 C148 158 148 130 155 100" fill="none" stroke="#2f5bea" stroke-width="20" stroke-linecap="round"/>
+<path d="M150 148 C147 138 147 128 150 118" fill="none" stroke="#f5a524" stroke-width="9" stroke-linecap="round"/>
+<rect x="132" y="180" width="140" height="22" rx="11" fill="#14213d"/>
+<rect x="144" y="172" width="124" height="16" rx="8" fill="#2f5bea"/>
+<path d="M196 172 L204 146" stroke="#14213d" stroke-width="6" stroke-linecap="round"/>
+<path d="M186 142 H244 Q252 142 252 136" fill="none" stroke="#14213d" stroke-width="11" stroke-linecap="round"/>
+
+</svg>

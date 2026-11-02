@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a simple ergonomic task chair">
+<rect width="400" height="300" fill="#eef2fb"/>
+<circle cx="200" cy="150" r="118" fill="#fff"/>
+<ellipse cx="200" cy="266" rx="108" ry="9" fill="#14213d" opacity=".10"/>
+<g>
+<rect x="196" y="204" width="8" height="38" rx="3" fill="#9aa8c7"/>
+<rect x="196" y="204" width="8" height="12" rx="3" fill="#14213d"/>
+<rect x="132" y="240" width="136" height="10" rx="5" fill="#14213d"/>
+<circle cx="146" cy="258" r="8" fill="#0e1730"/><circle cx="146" cy="258" r="3" fill="#9aa8c7"/>
+<circle cx="254" cy="258" r="8" fill="#0e1730"/><circle cx="254" cy="258" r="3" fill="#9aa8c7"/>
+<circle cx="200" cy="258" r="8" fill="#0e1730"/><circle cx="200" cy="258" r="3" fill="#9aa8c7"/>
+</g>
+<path d="M160 180 C154 160 154 140 158 124" fill="none" stroke="#14213d" stroke-width="22" stroke-linecap="round"/>
+<path d="M160 178 C156 160 156 142 159 128" fill="none" stroke="#f5a524" stroke-width="12" stroke-linecap="round"/>
+<rect x="138" y="180" width="128" height="20" rx="10" fill="#14213d"/>
+<rect x="148" y="174" width="112" height="14" rx="7" fill="#f5a524"/>
+
+</svg>
