@@ -9,19 +9,22 @@
         "tier": "Best overall",
         "name": "Herman Miller Aeron",
         "desc": "Breathable Pellicle mesh over a die-cast frame, with adjustable PostureFit lumbar support.",
-        "url": "https://www.amazon.com/s?k=Herman+Miller+Aeron+chair&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Herman+Miller+Aeron+chair&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Best value",
         "name": "Steelcase Series 1",
         "desc": "A knit-mesh back and a simpler lumbar mechanism, most of the adjustability at a gentler price.",
-        "url": "https://www.amazon.com/s?k=Steelcase+Series+1+chair&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Steelcase+Series+1+chair&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Budget",
         "name": "Branch Ergonomic Chair",
         "desc": "Mesh back with a fixed lumbar pad — a sensible starting point under real budget constraints.",
-        "url": "https://www.amazon.com/s?k=Branch+ergonomic+chair&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Branch+ergonomic+chair&tag=jeanventures2-20",
+        "image": ""
       }
     ],
     "room": "I"
@@ -36,19 +39,22 @@
         "tier": "Best overall",
         "name": "Uplift V2 Standing Desk",
         "desc": "A dual-motor frame that stays rock-solid at full height, with a memory keypad for quick position changes.",
-        "url": "https://www.amazon.com/s?k=Uplift+V2+standing+desk&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Uplift+V2+standing+desk&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Best value",
         "name": "FlexiSpot E7 Pro",
         "desc": "Dual motors and strong weight capacity for less than most premium competitors.",
-        "url": "https://www.amazon.com/s?k=FlexiSpot+E7+standing+desk&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=FlexiSpot+E7+standing+desk&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "No frame swap",
         "name": "Standing Desk Converter",
         "desc": "Sits on your existing desk and lifts keyboard and monitor together — no installation required.",
-        "url": "https://www.amazon.com/s?k=standing+desk+converter&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=standing+desk+converter&tag=jeanventures2-20",
+        "image": ""
       }
     ],
     "room": "II"
@@ -63,19 +69,22 @@
         "tier": "Best overall",
         "name": "Ergotron LX Monitor Arm",
         "desc": "A gas-spring arm with smooth, well-damped movement across a wide height range.",
-        "url": "https://www.amazon.com/s?k=Ergotron+LX+monitor+arm&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Ergotron+LX+monitor+arm&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Dual monitors",
         "name": "VIVO Dual Monitor Desk Mount",
         "desc": "Independent height and tilt for two screens side by side, clamped straight to the desk.",
-        "url": "https://www.amazon.com/s?k=VIVO+dual+monitor+desk+mount&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=VIVO+dual+monitor+desk+mount&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "For laptops",
         "name": "Laptop Stand + External Keyboard",
         "desc": "An aluminum riser plus a separate keyboard — the single highest-impact fix for laptop-only setups.",
-        "url": "https://www.amazon.com/s?k=adjustable+laptop+stand&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=adjustable+laptop+stand&tag=jeanventures2-20",
+        "image": ""
       }
     ],
     "room": "III"
@@ -90,19 +99,22 @@
         "tier": "Best split",
         "name": "Logitech Ergo K860",
         "desc": "A gently curved, split layout with a built-in palm rest for a more neutral wrist angle.",
-        "url": "https://www.amazon.com/s?k=Logitech+Ergo+K860&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Logitech+Ergo+K860&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Everyday",
         "name": "Logitech MX Keys",
         "desc": "Low-profile, quiet keys and reliable switching across several paired devices.",
-        "url": "https://www.amazon.com/s?k=Logitech+MX+Keys&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Logitech+MX+Keys&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Best mouse",
         "name": "Logitech MX Master 3S",
         "desc": "A shape that supports the whole hand rather than just the fingertips over an eight-hour day.",
-        "url": "https://www.amazon.com/s?k=Logitech+MX+Master+3S&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=Logitech+MX+Master+3S&tag=jeanventures2-20",
+        "image": ""
       }
     ],
     "room": "IV"
@@ -117,19 +129,22 @@
         "tier": "Best overall",
         "name": "BenQ ScreenBar",
         "desc": "Clips onto the monitor and lights the desk without glaring back at the screen.",
-        "url": "https://www.amazon.com/s?k=BenQ+ScreenBar&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=BenQ+ScreenBar&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Budget",
         "name": "Adjustable LED Desk Lamp",
         "desc": "Adjustable color temperature and brightness to match the light to the time of day.",
-        "url": "https://www.amazon.com/s?k=adjustable+LED+desk+lamp&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=adjustable+LED+desk+lamp&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Video calls",
         "name": "Compact Key Light",
         "desc": "A small, diffused light aimed at your face — a bigger difference on camera than most webcam upgrades.",
-        "url": "https://www.amazon.com/s?k=video+conferencing+key+light&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=video+conferencing+key+light&tag=jeanventures2-20",
+        "image": ""
       }
     ],
     "room": "V"
@@ -144,19 +159,22 @@
         "tier": "Standing helper",
         "name": "Anti-Fatigue Mat",
         "desc": "A cushioned, non-slip mat that makes standing sessions noticeably more comfortable.",
-        "url": "https://www.amazon.com/s?k=anti+fatigue+standing+mat&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=anti+fatigue+standing+mat&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Under-desk comfort",
         "name": "Ergonomic Footrest",
         "desc": "A tilting, textured rest for desks that leave your feet without solid ground.",
-        "url": "https://www.amazon.com/s?k=ergonomic+footrest&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=ergonomic+footrest&tag=jeanventures2-20",
+        "image": ""
       },
       {
         "tier": "Keep it tidy",
         "name": "Under-Desk Cable Tray",
         "desc": "A clamp-on tray that keeps cables clear of a sit-stand desk's moving legs — no drilling.",
-        "url": "https://www.amazon.com/s?k=under+desk+cable+management+tray&tag=jeanventures2-20"
+        "url": "https://www.amazon.com/s?k=under+desk+cable+management+tray&tag=jeanventures2-20",
+        "image": ""
       }
     ],
     "room": "VI"

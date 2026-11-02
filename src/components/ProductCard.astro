@@ -1,17 +1,32 @@
 ---
+import Icon from './Icon.astro';
 interface Props {
-  tier: string;
-  name: string;
-  desc: string;
-  url: string;
+  tier: string; name: string; desc: string; url: string; image?: string; category: string; featured?: boolean;
 }
-const { tier, name, desc, url } = Astro.props;
+const { tier, name, desc, url, image = '', category, featured = false } = Astro.props;
 ---
-<article class="card">
-  <span class="tier">{tier}</span>
-  <h3>{name}</h3>
-  <p>{desc}</p>
-  <a class="btn" href={url} target="_blank" rel="nofollow sponsored noopener">
-    Check price on Amazon <span aria-hidden="true">→</span>
-  </a>
-</article>
+{featured ? (
+  <article class="feat">
+    <div class={`tile ${image ? 'has-img' : ''}`}>
+      {image ? <img src={image} alt={name} loading="lazy" /> : <Icon id={category} size={74} sw={1.2} />}
+    </div>
+    <div class="fb">
+      <span class="tag">{tier}</span>
+      <h3>{name}</h3>
+      <p>{desc}</p>
+      <a class="btn" href={url} target="_blank" rel="nofollow sponsored noopener">Check price on Amazon</a>
+    </div>
+  </article>
+) : (
+  <article class="mini">
+    <div class={`thumb ${image ? 'has-img' : ''}`}>
+      {image ? <img src={image} alt={name} loading="lazy" /> : <Icon id={category} size={30} sw={1.5} />}
+    </div>
+    <div class="mb">
+      <span class="tag alt">{tier}</span>
+      <h4>{name}</h4>
+      <p>{desc}</p>
+      <a class="lnk" href={url} target="_blank" rel="nofollow sponsored noopener">Check price &rarr;</a>
+    </div>
+  </article>
+)}

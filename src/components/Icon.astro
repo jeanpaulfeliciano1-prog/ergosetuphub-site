@@ -1,0 +1,13 @@
+---
+interface Props { id: string; size?: number; sw?: number }
+const { id, size = 26, sw = 1.6 } = Astro.props;
+const paths: Record<string, string> = {
+  chairs: 'M8 3C6 7 10 9 9 13q0 2 2 2h8M14 15v4M10 19h8',
+  desks: 'M3 9h18M5 9v10M19 9v10M9 9v4h6V9',
+  'monitor-arms': 'M4 4h16v9H4zM12 13v3M8 20h8M12 16v4',
+  'keyboards-mice': 'M3 8h18v9H3zM7 12h.01M11 12h.01M15 12h.01M18 12h.01M8 15h8',
+  lighting: 'M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.9.7 1.1 1.4 1.1 2.2h5c0-.8.2-1.5 1.1-2.2A6 6 0 0 0 12 3z',
+  accessories: 'M3 17h18M5 17l2-6h10l2 6M9 11V8h6v3',
+};
+---
+<svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" stroke-width={sw} stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[id]} /></svg>
