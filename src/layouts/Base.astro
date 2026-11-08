@@ -1,20 +1,12 @@
 ---
-interface Props {
-  title?: string;
-  description?: string;
-}
+interface Props { title?: string; description?: string }
 const {
   title = "ErgoSetupHub — Build a home office that doesn't hurt",
   description = 'Honest, no-nonsense picks for ergonomic chairs, standing desks, monitor arms, keyboards and lighting, so your home office actually feels good to work in.',
 } = Astro.props;
 const nav = [
-  ['Chairs', '/#chairs'],
-  ['Desks', '/#desks'],
-  ['Monitor Arms', '/#monitor-arms'],
-  ['Keyboards & Mice', '/#keyboards-mice'],
-  ['Lighting', '/#lighting'],
-  ['FAQ', '/#faq'],
-  ['About', '/about.html'],
+  ['Chairs', '/#chairs'], ['Desks', '/#desks'], ['Monitor arms', '/#monitor-arms'],
+  ['Keyboards', '/#keyboards-mice'], ['Lighting', '/#lighting'], ['FAQ', '/#faq'], ['About', '/about.html'],
 ];
 import '../styles/global.css';
 ---
@@ -31,65 +23,37 @@ import '../styles/global.css';
     <meta property="og:image" content="https://ergosetuphub.com/og-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Cloudflare Web Analytics -->
+    <script is:inline type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9622bba1854b42928953ce980742c450"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </head>
   <body>
+    <div class="bar"><b>Heads up:</b> As an Amazon Associate, ErgoSetupHub earns from qualifying purchases. That never changes which products we choose to show.</div>
     <header class="site">
       <div class="wrap nav">
-        <a class="brand" href="/" aria-label="ErgoSetupHub home">
-          <svg viewBox="0 0 120 120" width="34" height="34" aria-hidden="true">
-            <rect width="120" height="120" rx="30" fill="#0F766E" />
-            <g fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M42 27 C35 43 50 53 45 69 Q44 76 51 76 H86" />
-              <path d="M66 76 V93 M47 93 H85" />
-            </g>
-            <circle cx="43.5" cy="48.5" r="5.5" fill="#F97316" />
-          </svg>
-          <span class="wordmark"><span class="w1">Ergo</span><span class="w2">SetupHub</span></span>
-        </a>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
-          <span></span><span></span><span></span>
-        </button>
-        <nav id="site-nav" class="links">
-          {nav.map(([label, href]) => <a href={href}>{label}</a>)}
-        </nav>
+        <a class="brand" href="/" aria-label="ErgoSetupHub home"><span>Ergo</span>SetupHub</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+        <nav id="site-nav" class="links">{nav.map(([label, href]) => <a href={href}>{label}</a>)}</nav>
       </div>
     </header>
-
     <slot />
-
     <footer class="site">
       <div class="wrap foot">
-        <div>
-          <div class="wordmark small"><span class="w1">Ergo</span><span class="w2">SetupHub</span></div>
-          <p class="muted">Independent home-office setup guides.</p>
-        </div>
-        <div class="foot-links">
-          <a href="/about.html">About</a>
-          <a href="/disclosure.html">Affiliate disclosure</a>
-        </div>
+        <div><a class="brand small" href="/"><span>Ergo</span>SetupHub</a><p class="muted">Independent home-office setup guides.</p></div>
+        <div class="foot-links"><a href="/about.html">About</a><a href="/disclosure.html">Affiliate disclosure</a></div>
       </div>
       <div class="wrap">
         <p class="disclosure">As an Amazon Associate, ErgoSetupHub earns from qualifying purchases made through links on this site, at no extra cost to you.</p>
         <p class="fine">&copy; {new Date().getFullYear()} ErgoSetupHub</p>
       </div>
     </footer>
-
     <script is:inline>
       (function () {
-        var t = document.querySelector('.nav-toggle');
-        var n = document.getElementById('site-nav');
+        var t = document.querySelector('.nav-toggle'), n = document.getElementById('site-nav');
         if (!t || !n) return;
-        t.addEventListener('click', function () {
-          var open = n.classList.toggle('open');
-          t.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        n.querySelectorAll('a').forEach(function (a) {
-          a.addEventListener('click', function () {
-            n.classList.remove('open');
-            t.setAttribute('aria-expanded', 'false');
-          });
-        });
+        t.addEventListener('click', function () { var o = n.classList.toggle('open'); t.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+        n.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { n.classList.remove('open'); t.setAttribute('aria-expanded', 'false'); }); });
       })();
     </script>
   </body>

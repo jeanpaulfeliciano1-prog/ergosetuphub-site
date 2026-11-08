@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of a tall mesh ergonomic chair with headrest">
+<rect width="400" height="300" fill="#eef2fb"/>
+<circle cx="200" cy="150" r="118" fill="#fff"/>
+<ellipse cx="200" cy="266" rx="108" ry="9" fill="#14213d" opacity=".10"/>
+<g>
+<rect x="196" y="204" width="8" height="38" rx="3" fill="#9aa8c7"/>
+<rect x="196" y="204" width="8" height="12" rx="3" fill="#14213d"/>
+<rect x="132" y="240" width="136" height="10" rx="5" fill="#14213d"/>
+<circle cx="146" cy="258" r="8" fill="#0e1730"/><circle cx="146" cy="258" r="3" fill="#9aa8c7"/>
+<circle cx="254" cy="258" r="8" fill="#0e1730"/><circle cx="254" cy="258" r="3" fill="#9aa8c7"/>
+<circle cx="200" cy="258" r="8" fill="#0e1730"/><circle cx="200" cy="258" r="3" fill="#9aa8c7"/>
+</g>
+<path d="M156 188 C132 150 134 100 150 62" fill="none" stroke="#14213d" stroke-width="9" stroke-linecap="round"/>
+<path d="M162 184 C142 150 144 104 158 66" fill="none" stroke="#2f5bea" stroke-width="22" stroke-linecap="round" opacity=".92"/>
+<path d="M146 150 C140 138 140 124 144 112" fill="none" stroke="#f5a524" stroke-width="12" stroke-linecap="round"/>
+<rect x="142" y="42" width="32" height="22" rx="10" fill="#14213d" transform="rotate(8 158 53)"/>
+<rect x="136" y="182" width="136" height="18" rx="9" fill="#14213d"/>
+<rect x="146" y="176" width="122" height="12" rx="6" fill="#2f5bea"/>
+<path d="M186 176 V142" stroke="#14213d" stroke-width="6" stroke-linecap="round"/>
+<rect x="170" y="132" width="62" height="11" rx="5.5" fill="#14213d"/>
+
+</svg>
